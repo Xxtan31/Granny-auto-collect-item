@@ -75,7 +75,6 @@ if winch then
         end
   end
 
-
 humanoidRootPart.CFrame = CFrame.new(64, 23, 130)
 
 wait(14)
@@ -86,7 +85,7 @@ wait(6)
 
 if safekey then
     if not csafekey then
-            humanoidRootPart.CFrame = CFrame.new(safekey.Handle.Position)
+            humanoidRootPart.CFrame = CFrame.new(safekey.Handle.Position + Vector3.new(3, 2, -3))
         wait(6)
         else
             print("safekeye teleport olunmadi")
@@ -117,6 +116,9 @@ humanoidRootPart.CFrame = CFrame.new(95, 23, 118)
 
 wait(3)
 
+humanoidRootPart.CFrame = CFrame.new(77, 14, 81)
+
+wait(3)
 
 if winA then
             humanoidRootPart.CFrame = CFrame.new(119, 24, 78)
@@ -127,7 +129,7 @@ if winA then
 
 if pens then
             if not cpens then
-            humanoidRootPart.CFrame = CFrame.new(pens.Handle.Position)
+            humanoidRootPart.CFrame = CFrame.new(pens.Handle.Position + Vector3.new(0, 5, 3))
           wait(5)
         else
             print("penseye teleport olunmadi")
@@ -145,6 +147,10 @@ if winA then
 humanoidRootPart.CFrame = CFrame.new(114, 44, 58)
 
 wait(5)
+
+humanoidRootPart.CFrame = CFrame.new(92, 14, 81)
+
+wait(3)
 
 humanoidRootPart.CFrame = CFrame.new(129, 4, 51)
 
