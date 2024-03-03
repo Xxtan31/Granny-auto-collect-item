@@ -152,6 +152,10 @@ humanoidRootPart.CFrame = CFrame.new(92, 14, 81)
 
 wait(3)
 
+humanoidRootPart.CFrame = CFrame.new(114, 44, 58)
+
+wait(3)
+
 humanoidRootPart.CFrame = CFrame.new(129, 4, 51)
 
 wait(3)
